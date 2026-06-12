@@ -1132,11 +1132,8 @@ target_link_libraries(loglib_demo loglib pthread)
 创建 `examples/demo.cpp`:
 
 ```cpp
-#include "loglib/LogMacros.h"
-#include "loglib/LoggerManager.h"
-#include "loglib/LogAppender.h"
-#include "loglib/AsyncAppender.h"
-#include "loglib/PatternFormatter.h"
+// 只需包含一个头文件
+#include "loglib/loglib.h"
 #include <thread>
 
 int main() {

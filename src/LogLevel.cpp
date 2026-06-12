@@ -1,4 +1,4 @@
-#include "loglib/LogLevel.h"
+#include "loglib/loglib.h"
 
 namespace loglib {
 

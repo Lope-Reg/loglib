@@ -1,8 +1,5 @@
-#include "loglib/LogMacros.h"
-#include "loglib/LoggerManager.h"
-#include "loglib/LogAppender.h"
-#include "loglib/AsyncAppender.h"
-#include "loglib/PatternFormatter.h"
+// 只需包含一个头文件
+#include "loglib/loglib.h"
 #include <thread>
 #include <vector>
 
